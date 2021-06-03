@@ -1,0 +1,19 @@
+<judgenode xmlns="edu.bistu.rubenoj.judgenode">
+    <webserver>192.168.0.104:8080</webserver>
+    <kafka>8.131.62.120:2333</kafka>
+    <thread>8</thread>
+    <workspace>/home/ruben/rubenoj_workspace</workspace>
+    <language>
+        <name>GNU GCC</name>
+        <app1>/usr/bin/x86_64-linux-gnu-gcc-9</app1>
+    </language>
+    <language>
+        <name>GNU G++ 9</name>
+        <app1>/usr/bin/x86_64-linux-gnu-g++-9</app1>
+    </language>
+    <language>
+        <name>Java 11</name>
+        <app1>/usr/lib/jvm/java-11-openjdk-amd64/bin/javac</app1>
+        <app2>/usr/lib/jvm/java-11-openjdk-amd64/bin/java</app2>
+    </language>
+</judgenode>
